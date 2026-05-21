@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="om">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tech-Blogger Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>🤖 Autonomous AI Tech-Blogger</h2>
+        <p class="subtitle">Niche kee galmeessi, AI'n ofiin blog kee haa bulchu!</p>
+        
+        <!-- Form Niche Itti Galmeessan -->
+        <div class="card">
+            <h3>Weebsaaytii Haaraa Banuu</h3>
+            <label>Maqaa Blog/Website:</label>
+            <input type="text" id="blogName" placeholder="Fakkeenya: Raammis Tech">
+
+            <label>Mata-duree (Niche):</label>
+            <input type="text" id="niche" placeholder="Fakkeenya: Agri-Tech, AI, Coding">
+
+            <label>Jechoota Gabaa (Target Keywords):</label>
+            <input type="text" id="keywords" placeholder="Fakkeenya: tech news, irrigation system">
+
+            <button onclick="registerBlog()">Blog Galmeessi</button>
+        </div>
+
+        <!-- Bakka AI'n Ofiin Barreeffama Itti Hojjetu -->
+        <div class="card">
+            <h3>AI Agent Kontorola</h3>
+            <p>Hojii AI dammaqsanii barreeffama ofiin akka barreessu gochuuf:</p>
+            <button class="btn-agent" onclick="triggerAIAgent()">Barreeffama Haaraa Hojjedhu (AI)</button>
+            
+            <div id="loading" class="hidden">AI'n barreessaa jira... eegi...</div>
+            <div id="resultBox" class="result-box hidden">
+                <h4 id="articleTitle"></h4>
+                <div id="articleContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
