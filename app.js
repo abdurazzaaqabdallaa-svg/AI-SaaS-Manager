@@ -1,4 +1,4 @@
-AIzaSyAfBGN08EY_gBrKXWgI_NwN2ebS_9-1FsU
+const GEMINI_API_KEY = "AIzaSyAfBGN08EY_gBrKXWgI_NwN2ebS_9-1FsU"; 
 
 const WP_URL = "https://abab.tirushop.com/wp-json/wp/v2/posts";
 const WP_USER = "abdur"; 
@@ -56,10 +56,22 @@ async function triggerAIAgent() {
         });
 
         const data = await response.json();
-        const aiText = data.candidates[0].content.parts[0].text;
         
-        const cleanJson = aiText.replace(/```json/g, "").replace(/```/g, "").trim();
-        const articleData = JSON.parse(cleanJson);
+        if (!data.candidates || !data.candidates[0].content || !data.candidates[0].content.parts) {
+            throw new Error("Gemini API irraa deebii sirrii hin arganne. Me API Key kee qori!");
+        }
+
+        let aiText = data.candidates[0].content.parts[0].text;
+        
+        aiText = aiText.replace(/```json/gi, "").replace(/```/g, "").trim();
+
+        const startJson = aiText.indexOf('{');
+        const endJson = aiText.lastIndexOf('}');
+        if (startJson !== -1 && endJson !== -1) {
+            aiText = aiText.substring(startJson, endJson + 1);
+        }
+
+        const articleData = JSON.parse(aiText);
 
         titleField.innerText = articleData.title;
         contentField.innerHTML = articleData.content;
@@ -98,8 +110,9 @@ async function postToWordPress(title, content) {
         if(wpResponse.ok) {
             alert("Barreeffamni AI'n qopheesse kallattiin WordPress (abab.tirushop.com) irratti Draft ta'ee fe'ameera!");
         } else {
-            console.error("WordPress Post Error:", wpResponse.statusText);
-            alert("WordPress irratti post gochuun hin danda'amne. Ragaa kee qori.");
+            const errLog = await wpResponse.json();
+            console.error("WordPress Post Error:", errLog);
+            alert(`WordPress Post Error: ${wpResponse.statusText}`);
         }
     } catch (err) {
         console.error("WordPress Connection Error:", err);
