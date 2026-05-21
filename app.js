@@ -1,5 +1,9 @@
 const GEMINI_API_KEY = "API_KEY_KEE_ASITTI_GALCHI"; 
 
+const WP_URL = "https://WEEBSAAYTII_KEE_ASITTI_GALCHI.com/wp-json/wp/v2/posts";
+const WP_USER = "MAQAA_USER_WP_KEE"; 
+const WP_APP_PASSWORD = "PASSWORD_HAARAA_WP_KEE"; 
+
 function registerBlog() {
     const name = document.getElementById('blogName').value;
     const niche = document.getElementById('niche').value;
@@ -60,12 +64,43 @@ async function triggerAIAgent() {
         titleField.innerText = articleData.title;
         contentField.innerHTML = articleData.content;
 
+        await postToWordPress(articleData.title, articleData.content);
+
     } catch (error) {
         console.error("Rakkoon uumame:", error);
         titleField.innerText = "Kora dhabame!";
-        contentField.innerHTML = `<p style="color:red;">API Key kee sirrii ta'uu isaa fi intarneeta kee mirkaneessi. Error: ${error.message}</p>`;
+        contentField.innerHTML = `<p style="color:red;">Rakkoon uumameera. Error: ${error.message}</p>`;
     } finally {
         loading.classList.add('hidden');
         resultBox.classList.remove('hidden');
+    }
+}
+
+async function postToWordPress(title, content) {
+    const credentials = btoa(`${WP_USER}:${WP_APP_PASSWORD}`);
+
+    const postData = {
+        title: title,
+        content: content,
+        status: 'draft' 
+    };
+
+    try {
+        const wpResponse = await fetch(WP_URL, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Basic ${credentials}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(postData)
+        });
+
+        if(wpResponse.ok) {
+            alert("Barreeffamni AI'n qopheesse kallattiin WordPress irratti fe'ameera! (Draft)");
+        } else {
+            console.error("WordPress Post Error:", wpResponse.statusText);
+        }
+    } catch (err) {
+        console.error("WordPress Connection Error:", err);
     }
 }
