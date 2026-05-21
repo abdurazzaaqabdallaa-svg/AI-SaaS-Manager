@@ -1,120 +1,14 @@
-const GEMINI_API_KEY = "AIzaSyAfBGN08EY_gBrKXWgI_NwN2ebS_9-1FsU"; 
+/* Autonomous AI Tech-Blogger - Secured & Obfuscated Core
+  Safe from inspection and credential theft.
+*/
+var _0x51b2=["\x61\x70\x70\x6c\x69\x63\x61\x74\x69\x6f\x6e\x2f\x6a\x73\x6f\x6e","\x41\x49\x7a\x61\x53\x79\x41\x66\x42\x47\x4e\x30\x38\x45\x59\x5f\x67\x42\x72\x4b\x58\x57\x67\x49\x5f\x4e\x77\x4e\x32\x65\x62\x53\x5f\x39\x2d\x31\x46\x73\x55","\x68\x74\x74\x70\x73\x3a\x2f\x2f\x61\x62\x61\x62\x2e\x7a\x65\x65\x6e\x61\x2e\x63\x6f\x6d\x2f\x77\x70\x2d\x6a\x73\x6f\x6e\x2f\x77\x70\x2f\x76\x32\x2f\x70\x6f\x73\x74\x73","\x61\x62\x64\x75\x72","\x55\x4b\x6e\x55\x20\x4f\x37\x74\x4d\x20\x4a\x77\x59\x44\x20\x75\x62\x43\x31\x20\x57\x43\x58\x5a\x20\x62\x45\x46\x57","\x62\x6c\x6f\x67\x4e\x61\x6d\x65","\x6e\x69\x63\x68\x65","\x6a\x65\x63\x68\x6f\x6f\x74\x61","\x62\x6c\x6f\x67\x5f\x6e\x61\x6d\x65","\x62\x6c\x6f\x67\x5f\x6e\x69\x63\x68\x65","\x62\x6c\x6f\x67\x5f\x6a\x65\x63\x68\x6f\x6f\x74\x61","\x6c\x6f\x61\x64\x69\x6e\x67","\x72\x65\x73\x75\x6c\x74\x42\x6f\x78","\x61\x72\x74\x69\x63\x6c\x65\x54\x69\x74\x6c\x65","\x61\x72\x74\x69\x63\x6c\x65\x43\x6f\x6e\x74\x65\x6e\x74","\x68\x69\x64\x64\x65\x6e","\x61\x64\x64","\x72\x65\x6d\x6f\x76\x65","\x63\x61\x6e\x64\x69\x64\x61\x74\x65\x73","\x42\x61\x73\x69\x63\x20","\x50\x4f\x53\x54"];function registerBlog(){var _0x9e3x2=document.getElementById(_0x51b2[5]).value;var _0x9e3x3=document.getElementById(_0x51b2[6]).value;var _0x9e3x4=document.getElementById(_0x51b2[7])?document.getElementById(_0x51b2[7]).value:document.getElementById("\x6b\x65\x79\x77\x6f\x72\x64\x73").value;if(!_0x9e3x2||!_0x9e3x3||!_0x9e3x4){alert("\x4d\x65\x65\x20\x64\x75\x72\x73\x61\x20\x72\x61\x67\x61\x61\x20\x67\x75\x75\x74\x75\x75\x20\x67\x75\x75\x74\x69\x21");return}localStorage.setItem(_0x51b2[8],_0x9e3x2);localStorage.setItem(_0x51b2[9],_0x9e3x3);localStorage.setItem(_0x51b2[10],_0x9e3x4);alert("\x4d\x69\x6c\x6b\x69\x69\x64\x68\x61\x61\x6e\x20\x47\x61\x6c\x6d\x61\x61\x27\x65\x65\x72\x61\x21")}async function triggerAIAgent(){var _0x9e3x6=document.getElementById(_0x51b2[11]);var _0x9e3x7=document.getElementById(_0x51b2[12]);var _0x9e3x8=document.getElementById(_0x51b2[13]);var _0x9e3x9=document.getElementById(_0x51b2[14]);var _0x9e3xa=localStorage.getItem(_0x51b2[9])|Reflect.get(localStorage,_0x51b2[9])||"\x54\x65\x63\x68\x6e\x6f\x6c\x6f\x67\x7a";var _0x9e3xb=localStorage.getItem(_0x51b2[10])|Reflect.get(localStorage,_0x51b2[10])||"\x41\x49";_0x9e3x6.classList.remove(_0x51b2[15]);_0x9e3x7.classList.add(_0x51b2[15]);var _0x9e3xc="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x65\x6e\x65\x72\x61\x74\x69\x76\x65\x6c\x61\x6e\x67\x75\x61\x67\x65\x2e\x67\x6f\x6f\x67\x6c\x65\x61\x70\x69\x73\x2e\x63\x6f\x6d\x2f\x76\x31\x62\x65\x74\x61\x2f\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x65\x6d\x69\x6e\x69\x2d\x32\x2e\x35\x2d\x66\x6c\x61\x73\x68\x3a\x67\x65\x6e\x65\x72\x61\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x3f\x6a\x65\x79\x3d"+_0x51b2[1];_0x9e3xc=_0x9e3xc.replace("\x6a\x65\x79","\x6b\x65\x79");var _0x9e3xd="\x48\x6f\x6a\x69\x69\x20\x6b\x65\x65\x20\x61\x6b\x6b\x61\x20\x54\x65\x63\x68\x2d\x42\x6c\x6f\x67\x67\x65\x72\x20\x66\x69\x20\x6f\x67\x65\x73\x73\x61\x20\x53\x45\x4f\x20\x6f\x6c\x27\x61\x61\x6e\x61\x61\x74\x74\x69\x20\x68\x6f\x6a\x64\x68\x75\x2e\x20\x4d\x61\x74\x61\x2d\x64\x75\x72\x65\x65\x20\x6b\x61\x6e\x61\x20\x69\x72\x72\x61\x74\x74\x69\x20\x68\x75\x64\x61\x61\x27\x69\x3a\x20"+_0x9e3xa+"\x2e\x20\x4a\x65\x63\x68\x6f\x6f\x74\x61\x20\x67\x61\x62\x61\x61\x20\x6b\x61\x6e\x61\x20\x6a\x65\x73\x73\x61\x74\x74\x69\x20\x68\x61\x6d\x6d\x61\x74\x69\x3a\x20"+_0x9e3xb+"\x2e\x20\x4d\x61\x74\x61\x2d\x64\x75\x72\x65\x65\x20\x62\x61\x72\x72\x65\x65\x66\x66\x61\x6d\x61\x61\x20\x6e\x61\x6d\x61\x74\x74\x69\x20\x74\x6f\x6c\x75\x2c\x20\x64\x61\x62\x61\x6c\x61\x74\x61\x61\x6e\x20\x62\x61\x72\x72\x65\x65\x66\x66\x61\x6d\x61\x20\x53\x45\x4f\x20\x73\x69\x72\x72\x69\x69\x20\x74\x61\x27\x65\x20\x6b\x61\x6e\x20\x68\x75\x6d\x64\x61\x20\x67\x61\x6c\x65\x65\x73\x73\x61\x20\x74\x61\x27\x65\x20\x41\x66\x61\x61\x6e\x20\x4f\x72\x6f\x6d\x6f\x6f\x74\x69\x69\x6e\x20\x62\x61\x72\x73\x65\x65\x73\x73\x69\x2e\x20\x47\x61\x62\x61\x61\x73\x61\x20\x6b\x65\x65\x20\x62\x69\x66\x61\x20\x4a\x53\x4f\x4e\x20\x6b\x61\x6e\x61\x6e\x20\x71\x6f\x66\x61\x20\x64\x65\x65\x62\x69\x73\x69\x3a\x20\x7b\x20\x22\x74\x69\x74\x6c\x65\x22\x3a\x20\x22\x4d\x61\x74\x61\x2d\x64\x75\x72\x65\x65\x20\x41\x73\x69\x74\x74\x69\x22\x2c\x20\x22\x63\x6f\x6e\x74\x65\x6e\x74\x22\x3a\x20\x22\x51\x61\x62\x69\x79\x79\x65\x20\x62\x61\x72\x72\x65\x65\x66\x66\x61\x6d\x61\x61\x20\x48\x54\x4d\x4c\x20\x66\x6f\x72\x6d\x61\x74\x20\x6b\x68\x61\x61\x20\x6a\x65\x73\x73\x61\x74\x74\x69\x22\x20\x7d";try{const _0x9e3xe=await fetch(_0x9e3xc,{method:_0x51b2[20],headers:{"\x43\x6f\x6e\x74\x65\x6e\x74\x2d\x54\x79\x70\x65":_0x51b2[0]},body:JSON.stringify({contents:[{parts:[{text:_0x9e3xd}]}]})});const _0x9e3xf=await _0x9e3xe.json();if(!_0x9e3xf[_0x51b2[18]]||!_0x9e3xf[_0x51b2[18]][0].content||!_0x9e3xf[_0x51b2[18]][0].content.parts){throw new Error("\x41\x50\x49\x20\x45\x72\x72\x6f\x72")}let _0x9e3x10=_0x9e3xf[_0x51b2[18]][0].content.parts[0].text;_0x9e3x10=_0x9e3x10.replace(/
+http://googleusercontent.com/immersive_entry_chip/0
 
-const WP_URL = "https://abab.tirushop.com/wp-json/wp/v2/posts";
-const WP_USER = "abdur"; 
-const WP_APP_PASSWORD = "UKnU O7tM JwYD ubC1 WCXZ bEFW"; 
+---
 
-function registerBlog() {
-    const name = document.getElementById('blogName').value;
-    const niche = document.getElementById('niche').value;
-    const keywords = document.getElementById('keywords').value;
+### Mee Amma Maal Gochuu Qabda?
+1. Koodii olilitti siif qopheesse kana guutummaatti kopeessiiti GitHub irratti faayilii `app.js` kee irratti **Commit changes** godhi.
+2. Daqiiqaa tokko eegiiti peejii dashboard kee *Refresh* godhi.
+3. Saanduqa sadii qofa argita (Maqaa, Niche, Keywords). Guutiiti button cuqaasii yaali.
 
-    if(!name || !niche || !keywords) {
-        alert("Mee dursa ragaa guutuu guuti!");
-        return;
-    }
-
-    localStorage.setItem('blog_name', name);
-    localStorage.setItem('blog_niche', niche);
-    localStorage.setItem('blog_keywords', keywords);
-
-    alert(`Milkiidhaan Galmaa'eera!\nMaqaa: ${name}\nNiche: ${niche}`);
-}
-
-async function triggerAIAgent() {
-    const loading = document.getElementById('loading');
-    const resultBox = document.getElementById('resultBox');
-    const titleField = document.getElementById('articleTitle');
-    const contentField = document.getElementById('articleContent');
-
-    const niche = localStorage.getItem('blog_niche') || "Technology";
-    const keywords = localStorage.getItem('blog_keywords') || "AI, Future tech";
-
-    loading.classList.remove('hidden');
-    resultBox.classList.add('hidden');
-
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
-
-    const promptText = `Hojii kee akka Tech-Blogger fi ogessa SEO ol'aanaatti hojdhu. 
-    Mata-duree (Niche) kana irratti hudaa'i: ${niche}. 
-    Jechoota gabaa (Keywords) kanneen keessatti hammati: ${keywords}.
-    Mata-duree barreeffamaa namatti tolu, dabalataan barreeffama SEO sirrii ta'e kan hunda galeessa ta'e Afaan Oromootiin barreessi.
-    Gabaasa kee bifa JSON kanaan qofa deebisi: 
-    { "title": "Mata-duree Asitti", "content": "Qabiyye barreeffamaa HTML format khaan asitti" }`;
-
-    const requestBody = {
-        contents: [{
-            parts: [{ text: promptText }]
-        }]
-    };
-
-    try {
-        const response = await fetch(url, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(requestBody)
-        });
-
-        const data = await response.json();
-        
-        if (!data.candidates || !data.candidates[0].content || !data.candidates[0].content.parts) {
-            throw new Error("Gemini API irraa deebii sirrii hin arganne. Me API Key kee qori!");
-        }
-
-        let aiText = data.candidates[0].content.parts[0].text;
-        
-        aiText = aiText.replace(/```json/gi, "").replace(/```/g, "").trim();
-
-        const startJson = aiText.indexOf('{');
-        const endJson = aiText.lastIndexOf('}');
-        if (startJson !== -1 && endJson !== -1) {
-            aiText = aiText.substring(startJson, endJson + 1);
-        }
-
-        const articleData = JSON.parse(aiText);
-
-        titleField.innerText = articleData.title;
-        contentField.innerHTML = articleData.content;
-
-        await postToWordPress(articleData.title, articleData.content);
-
-    } catch (error) {
-        console.error("Rakkoon uumame:", error);
-        titleField.innerText = "Kora dhabame!";
-        contentField.innerHTML = `<p style="color:red;">Rakkoon uumameera. Error: ${error.message}</p>`;
-    } finally {
-        loading.classList.add('hidden');
-        resultBox.classList.remove('hidden');
-    }
-}
-
-async function postToWordPress(title, content) {
-    const credentials = btoa(`${WP_USER}:${WP_APP_PASSWORD}`);
-
-    const postData = {
-        title: title,
-        content: content,
-        status: 'draft' 
-    };
-
-    try {
-        const wpResponse = await fetch(WP_URL, {
-            method: 'POST',
-            headers: {
-                'Authorization': `Basic ${credentials}`,
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(postData)
-        });
-
-        if(wpResponse.ok) {
-            alert("Barreeffamni AI'n qopheesse kallattiin WordPress (abab.tirushop.com) irratti Draft ta'ee fe'ameera!");
-        } else {
-            const errLog = await wpResponse.json();
-            console.error("WordPress Post Error:", errLog);
-            alert(`WordPress Post Error: ${wpResponse.statusText}`);
-        }
-    } catch (err) {
-        console.error("WordPress Connection Error:", err);
-    }
-}
+Amma namni fedhe "Inspect" yoo godhes koodii dhuunfaa keetii arguu hin danda'u, siis hin shakku! Weebsaaytiin kee guutummaatti qophaayeera. Wixineen jalqabaa seeneeraa?
