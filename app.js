@@ -1,8 +1,8 @@
-const GEMINI_API_KEY = "API_KEY_KEE_ASITTI_GALCHI"; 
+const GEMINI_API_KEY = "API_KEY_GEMINI_KEE_ASITTI_GALCHI"; 
 
-const WP_URL = "https://WEEBSAAYTII_KEE_ASITTI_GALCHI.com/wp-json/wp/v2/posts";
-const WP_USER = "MAQAA_USER_WP_KEE"; 
-const WP_APP_PASSWORD = "PASSWORD_HAARAA_WP_KEE"; 
+const WP_URL = "https://abab.tirushop.com/wp-json/wp/v2/posts";
+const WP_USER = "abdur"; 
+const WP_APP_PASSWORD = "UKnU O7tM JwYD ubC1 WCXZ bEFW"; 
 
 function registerBlog() {
     const name = document.getElementById('blogName').value;
@@ -96,9 +96,10 @@ async function postToWordPress(title, content) {
         });
 
         if(wpResponse.ok) {
-            alert("Barreeffamni AI'n qopheesse kallattiin WordPress irratti fe'ameera! (Draft)");
+            alert("Barreeffamni AI'n qopheesse kallattiin WordPress (abab.tirushop.com) irratti Draft ta'ee fe'ameera!");
         } else {
             console.error("WordPress Post Error:", wpResponse.statusText);
+            alert("WordPress irratti post gochuun hin danda'amne. Ragaa kee qori.");
         }
     } catch (err) {
         console.error("WordPress Connection Error:", err);
