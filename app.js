@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "API_KEY_GEMINI_KEE_ASITTI_GALCHI"; 
+AIzaSyAfBGN08EY_gBrKXWgI_NwN2ebS_9-1FsU
 
 const WP_URL = "https://abab.tirushop.com/wp-json/wp/v2/posts";
 const WP_USER = "abdur"; 
