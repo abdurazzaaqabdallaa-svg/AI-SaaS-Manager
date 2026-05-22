@@ -1,82 +1,90 @@
-/* Autonomous AI Tech-Blogger - Secured & Obfuscated Core
-  Safe from inspection and credential theft.
-*/
-var _0x51b2=["\x61\x70\x70\x6c\x69\x63\x61\x74\x69\x6f\x6e\x2f\x6a\x73\x6f\x6e","\x41\x49\x7a\x61\x53\x79\x41\x66\x42\x47\x4e\x30\x38\x45\x59\x5f\x67\x42\x72\x4b\x58\x57\x67\x49\x5f\x4e\x77\x4e\x32\x65\x62\x53\x5f\x39\x2d\x31\x46\x73\x55","\x68\x74\x74\x70\x73\x3a\x2f\x2f\x61\x62\x61\x62\x2e\x7a\x65\x65\x6e\x61\x2e\x63\x6f\x6d\x2f\x77\x70\x2d\x6a\x73\x6f\x6e\x2f\x77\x70\x2f\x76\x32\x2f\x70\x6f\x73\x74\x73","\x61\x62\x64\x75\x72","\x55\x4b\x6e\x55\x20\x4f\x37\x74\x4d\x20\x4a\x77\x59\x44\x20\x75\x62\x43\x31\x20\x57\x43\x58\x5a\x20\x62\x45\x46\x57","\x62\x6c\x6f\x67\x4e\x61\x6d\x65","\x6e\x69\x63\x68\x65","\x6a\x65\x63\x68\x6f\x6f\x74\x61","\x62\x6c\x6f\x67\x5f\x6e\x61\x6d\x65","\x62\x6c\x6f\x67\x5f\x6e\x69\x63\x68\x65","\x62\x6c\x6f\x67\x5f\x6a\x65\x63\x68\x6f\x6f\x74\x61","\x6c\x6f\x61\x64\x69\x6e\x67","\x72\x65\x73\x75\x6c\x74\x42\x6f\x78","\x61\x72\x74\x69\x63\x6c\x65\x54\x69\x74\x6c\x65","\x61\x72\x74\x69\x63\x6c\x65\x43\x6f\x6e\x74\x65\x6e\x74","\x68\x69\x64\x64\x65\x6e","\x61\x64\x64","\x72\x65\x6d\x6f\x76\x65","\x63\x61\x6e\x64\x69\x64\x61\x74\x65\x73","\x42\x61\x73\x69\x63\x20","\x50\x4f\x53\x54"];
 
-function registerBlog(){
-    var _0x9e3x2=document.getElementById(_0x51b2[5]).value;
-    var _0x9e3x3=document.getElementById(_0x51b2[6]).value;
-    var _0x9e3x4=document.getElementById(_0x51b2[7])?document.getElementById(_0x51b2[7]).value:document.getElementById("\x6b\x65\x79\x77\x6f\x72\x64\x73").value;
-    if(!_0x9e3x2||!_0x9e3x3||!_0x9e3x4){
-        alert("\x4d\x65\x65\x20\x64\x75\x72\x73\x61\x20\x72\x61\x67\x61\x61\x20\x67\x75\x75\x74\x75\x20\x67\x75\x75\x74\x69\x21");
-        return;
-    }
-    localStorage.setItem(_0x51b2[8],_0x9e3x2);
-    localStorage.setItem(_0x51b2[9],_0x9e3x3);
-    localStorage.setItem(_0x51b2[10],_0x9e3x4);
-    alert("\x4d\x69\x6c\x6b\x69\x69\x64\x68\x61\x61\x6e\x20\x47\x61\x6c\x6d\x61\x61\x27\x65\x65\x72\x61\x21");
-}
+<!DOCTYPE html>
+<html lang="om">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tech-Blogger (Version Iccitii)</title>
+    <!-- Tailwind CSS miidhaginaaf -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hidden { display: none; }
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #2563eb;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body class="bg-slate-100 min-h-screen font-sans">
 
-async function triggerAIAgent(){
-    var _0x9e3x6=document.getElementById(_0x51b2[11]);
-    var _0x9e3x7=document.getElementById(_0x51b2[12]);
-    var _0x9e3x8=document.getElementById(_0x51b2[13]);
-    var _0x9e3x9=document.getElementById(_0x51b2[14]);
-    var _0x9e3xa=localStorage.getItem(_0x51b2[9])|Reflect.get(localStorage,_0x51b2[9])||"\x54\x65\x63\x68\x6e\x6f\x6c\x6f\x67\x7a";
-    var _0x9e3xb=localStorage.getItem(_0x51b2[10])|Reflect.get(localStorage,_0x51b2[10])||"\x41\x49";
-    _0x9e3x6.classList.remove(_0x51b2[15]);
-    _0x9e3x7.classList.add(_0x51b2[15]);
-    var _0x9e3xc="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x65\x6e\x65\x72\x61\x74\x69\x76\x65\x6c\x61\x6e\x67\x75\x61\x67\x65\x2e\x67\x6f\x6f\x67\x6c\x65\x61\x70\x69\x73\x2e\x63\x6f\x6d\x2f\x76\x31\x62\x65\x74\x61\x2f\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x65\x6d\x69\x6e\x69\x2d\x32\x2e\x35\x2d\x66\x6c\x61\x73\x68\x3a\x67\x65\x6e\x65\x72\x61\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x3f\x6a\x65\x79\x3d"+_0x51b2[1];
-    _0x9e3xc=_0x9e3xc.replace("\x6a\x65\x79","\x6b\x65\x79");
-    var _0x9e3xd="\x48\x6f\x6a\x69\x69\x20\x6b\x65\x65\x20\x61\x6b\x6b\x61\x20\x54\x65\x63\x68\x2d\x42\x6c\x6f\x67\x67\x65\x72\x20\x66\x69\x20\x6f\x67\x65\x73\x73\x61\x20\x53\x45\x4f\x20\x6f\x6c\x27\x61\x61\x6e\x61\x61\x74\x74\x69\x20\x68\x6f\x6a\x64\x68\x75\x2e\x20\x4d\x61\x74\x61\x2d\x64\x75\x72\x65\x65\x20\x6b\x61\x6e\x61\x20\x69\x72\x72\x61\x74\x74\x69\x20\x68\x65\x64\x64\x75\x20\x62\x61\x6c\x27\x69\x6e\x61\x61\x6e\x20\x62\x61\x72\x72\x65\x65\x73\x73\x75\x75\x20\x71\x6f\x66\x61\x20\x73\x69\x20\x62\x61\x72\x62\x61\x61\x63\x68\x69\x73\x61\x2e\x20\x4d\x61\x74\x61\x2d\x64\x75\x72\x65\x65\x3a\x20"+_0x9e3xa+"\x2e\x20\x4a\x65\x63\x68\x6f\x6f\x74\x61\x20\x6b\x61\x6e\x65\x65\x6e\x20\x6b\x65\x65\x73\x73\x61\x74\x74\x69\x20\x68\x61\x6d\x6d\x61\x74\x69\x3a\x20"+_0x9e3xb+"\x2e\x20\x41\x66\x61\x61\x6e\x20\x4f\x72\x6f\x6d\x6f\x6f\x74\x69\x69\x6e\x20\x62\x61\x72\x72\x65\x65\x73\x73\x69\x2e\x20\x47\x61\x62\x61\x61\x73\x61\x20\x6b\x65\x65\x20\x62\x69\x66\x61\x20\x4a\x53\x4f\x4e\x20\x6b\x61\x6e\x61\x6e\x20\x71\x6f\x66\x61\x20\x64\x65\x65\x62\x69\x73\x69\x3a\x20\x7b\x20\x22\x74\x69\x74\x6c\x65\x22\x3a\x20\x22\x4d\x61\x74\x61\x2d\x64\x75\x72\x65\x65\x20\x41\x73\x69\x74\x74\x69\x22\x2c\x20\x22\x63\x6f\x6e\x74\x65\x6e\x74\x22\x3a\x20\x22\x51\x61\x62\x69\x79\x79\x65\x20\x62\x61\x72\x72\x65\x65\x66\x66\x61\x6d\x61\x61\x20\x48\x54\x4d\x4c\x20\x66\x6f\x72\x6d\x61\x74\x20\x6b\x68\x61\x61\x20\x6a\x65\x73\x73\x61\x74\x74\x69\x22\x20\x7d";
-    try{
-        const _0x9e3xe=await fetch(_0x9e3xc,{
-            method:_0x51b2[20],
-            headers:{"\x43\x6f\x6e\x74\x65\x6e\x74\x2d\x54\x79\x70\x65":_0x51b2[0]},
-            body:JSON.stringify({contents:[{parts:[{text:_0x9e3xd}]}]})
-        });
-        const _0x9e3xf=await _0x9e3xe.json();
-        if(!_0x9e3xf[_0x51b2[18]]||!_0x9e3xf[_0x51b2[18]][0].content||!_0x9e3xf[_0x51b2[18]][0].content.parts){
-            throw new Error("\x41\x50\x49\x20\x45\x72\x72\x6f\x72");
-        }
-        let _0x9e3x10=_0x9e3xf[_0x51b2[18]][0].content.parts[0].text;
-        _0x9e3x10=_0x9e3x10.replace(/```json/gi,"").replace(/```/g,"").trim();
-        const _0x9e3x11=_0x9e3x10.indexOf("{");
-        const _0x9e3x12=_0x9e3x10.lastIndexOf("}");
-        if(_0x9e3x11!==-1&&_0x9e3x12!==-1){
-            _0x9e3x10=_0x9e3x10.substring(_0x9e3x11,_0x9e3x12+1);
-        }
-        const _0x9e3x13=JSON.parse(_0x9e3x10);
-        _0x9e3x8.innerText=_0x9e3x13.title;
-        _0x9e3x9.innerHTML=_0x9e3x13.content;
-        await postToWordPress(_0x9e3x13.title,_0x9e3x13.content);
-    }catch(error){
-        console.error(error);
-        _0x9e3x8.innerText="\x52\x61\x6b\x6b\x6f\x6f\x6e\x20\x75\x75\x6d\x61\x6d\x65\x65\x72\x61\x21";
-        _0x9e3x9.innerHTML="<p style='color:red;'>\x4d\x65\x65\x20\x61\x6d\x61\x6e\x61\x6a\x61\x61\x20\x69\x6e\x74\x65\x72\x6e\x65\x65\x74\x61\x20\x71\x6f\x72\x69\x20\x79\x6b\x6e\x20\x43\x4f\x52\x53\x20\x65\x65\x79\x79\x61\x6d\x69\x2e</p>";
-    }finally{
-        _0x9e3x6.classList.add(_0x51b2[15]);
-        _0x9e3x7.classList.remove(_0x51b2[15]);
-    }
-}
+    <div class="max-w-3xl mx-auto py-12 px-4">
+        <!-- Header -->
+        <div class="text-center mb-10">
+            <h1 class="text-4xl font-extrabold text-blue-700 mb-2">AI Tech-Blogger 🤖</h1>
+            <p class="text-slate-600 italic">Barreeffama teeknoolojii AI'n barreessii kallattiin WordPress irratti 'Draft' godhi.</p>
+        </div>
 
-async function postToWordPress(_0x9e3x15,_0x9e3x16){
-    const _0x9e3x17=btoa(_0x51b2[3]+"\x3a"+_0x51b2[4]);
-    try{
-        const _0x9e3x18=await fetch(_0x51b2[2],{
-            method:_0x51b2[20],
-            headers:{
-                "\x41\x75\x74\x68\x6f\x72\x69\x7a\x61\x74\x69\x6f\x6e":_0x51b2[19]+_0x9e3x17,
-                "\x43\x6f\x6e\x74\x65\x6e\x74\x2d\x54\x79\x70\x65":_0x51b2[0]
-            },
-            body:JSON.stringify({title:_0x9e3x15,content:_0x9e3x16,status:"\x64\x72\x61\x66\x74"})
-        });
-        if(_0x9e3x18.ok){
-            alert("\x42\x61\x72\x72\x65\x65\x66\x66\x61\x6d\x6e\x69\x20\x41\x49\x27\x6e\x20\x71\x6f\x70\x68\x65\x65\x73\x73\x65\x20\x6b\x61\x6c\x6c\x61\x74\x74\x69\x69\x6e\x20\x57\x6f\x72\x64\x50\x72\x65\x73\x73\x20\x69\x72\x72\x61\x74\x74\x69\x20\x44\x72\x61\x66\x74\x20\x74\x61\x27\x65\x65\x20\x66\x65\x27\x61\x6d\x65\x65\x72\x61\x21");
-        }else{
-            console.error("\x57\x50\x20\x45\x72\x72\x6f\x72");
+        <!-- 1. WordPress Config (Local Storage keessa save ta'a) -->
+        <div class="bg-white p-6 rounded-2xl shadow-md mb-8 border border-blue-100">
+            <h2 class="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                <span class="bg-blue-600 text-white w-7 h-7 rounded-full flex items-center justify-center mr-2 text-sm">1</span>
+                Qindaa'ina WordPress
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" id="wpUrl" placeholder="URL: https://weebsaayitiikee.com" class="p-3 border rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                <input type="text" id="wpUser" placeholder="Username (fkn. admin)" class="p-3 border rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                <input type="password" id="wpPass" placeholder="Application Password (bakka duwwaa qabu)" class="p-3 border rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                <button onclick="saveWP()" class="bg-blue-600 text-white font-bold py-3 rounded-xl hover:bg-blue-700 transition active:scale-95">Save Qindaa'ina</button>
+            </div>
+            <p class="text-[10px] text-slate-400 mt-3 text-center">*Iccitiin kee Browser kee keessatti qofa qabama (Safe).*</p>
+        </div>
+
+        <!-- 2. AI Content Generator -->
+        <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-200">
+            <h2 class="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                <span class="bg-blue-600 text-white w-7 h-7 rounded-full flex items-center justify-center mr-2 text-sm">2</span>
+                Mata-duree Barreeffamaa
+            </h2>
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Mata-duree Gurguddaa (Niche):</label>
+                    <input type="text" id="niche" placeholder="fkn. Artificial Intelligence, Web Dev..." class="w-full p-4 border rounded-xl focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Jechoota Ijoo (Keywords):</label>
+                    <input type="text" id="keywords" placeholder="fkn. Python, Future, Software" class="w-full p-4 border rounded-xl focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <button onclick="generateAI()" id="btnAction" class="w-full bg-slate-900 text-white font-black py-4 rounded-xl shadow-lg hover:bg-black transition-all transform active:scale-95">
+                    BARREEFFAMA AI'N BARREESSI
+                </button>
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading" class="hidden mt-12 text-center">
+            <div class="loader mx-auto"></div>
+            <p class="mt-4 text-blue-700 font-bold animate-pulse">AI'n barreessaa jira, maaloo obsi...</p>
+        </div>
+
+        <!-- Result Box -->
+        <div id="resultBox" class="hidden mt-12 bg-white p-8 rounded-3xl shadow-2xl border-t-4 border-blue-600">
+            <h2 id="resTitle" class="text-3xl font-black text-slate-900 mb-6 border-b pb-4"></h2>
+            <div id="resContent" class="prose prose-blue max-w-none text-slate-700 leading-relaxed">
+                <!-- Barreeffamni asitti dhufa -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // WordPress settings save gochuu
+        function saveWP() {
+            localStorage.setItem('wp_url', document.getElementById('wpUrl').value);
+            localStorage.setItem('wp_user', document.getElementById('wpUser').value);
+            localStorage.setItem('wp_pass', document.getElementById('wpPass').value);
+            alert("Qindaa'inni kee milkiin save ta'eera!");
         }
-    }catch(_0x9e3x1a){
-        console.error(_0x9e3x1a);
-    }
-}
